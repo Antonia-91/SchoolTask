@@ -1,0 +1,30 @@
+#content {
+  #myUl {
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px black dotted;
+    background-color: rgba(99, 99, 98, 0.582);
+    list-style: none;
+  }
+
+  .myLi:hover {
+    color: rgb(190, 110, 35);
+    cursor: pointer;
+  }
+}
+
+#popDiv {
+  //display: flex;
+  text-align: center;
+  //margin-left: 12rem;
+  width: fit-content;
+  border-radius: 20px;
+  padding: 10px;
+  border: 3px black dotted;
+  background-color: rgba(99, 99, 98, 0.582);
+}
+
+#clearBtn {
+  background-color: gray;
+  border: 1px dotted black;
+}

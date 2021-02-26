@@ -1,0 +1,48 @@
+/* Ändrar pop-li/städerna*/
+.dropbtn{
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 5em;
+    list-style-type: none;
+}
+
+/* Ändrar ul till li-städerna */
+#ulCity {
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: scroll;
+}
+
+#ulCity li:hover {color: white;}
+
+/* Ändrar diven som ul är i */
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    width: 100%;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* displaya eller inte popMenu */
+.show {
+    display: block;
+}
+
+/* ul listan till länderna */
+.country{
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 5em;
+    list-style-type: none;
+}

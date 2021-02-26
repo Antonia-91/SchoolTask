@@ -1,0 +1,55 @@
+@import "navBar";
+@import "visitedCity";
+@import "popMenu";
+
+/// design for Elements in HTML file ///
+#main {
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  min-height: 100vh;
+  grid-gap: 0.5em;
+  grid-auto-rows: minmax(20px, auto);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: 2px 2px #888888;
+}
+
+#content {
+  background-color: #eee;
+  padding: 1rem;
+  text-align: center;
+  justify-content: center;
+}
+
+#aside {
+  text-align: center;
+  background-color: #ddd;
+  padding: 1rem;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+// all our buttos //
+.Btn {
+  width: 150px;
+  padding: 2px;
+  border: 1px black;
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  box-shadow: 2px 2px #888888;
+  background-color: #585656;
+  margin: 2px;
+}
+
+.Btn:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#error {
+  color: red;
+}
+
+#cityPicture{
+  height: 350px;
+}
